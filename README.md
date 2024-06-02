@@ -48,7 +48,7 @@ curl -X POST --location "localhost:8000/api/v1/calculate" -H "Content-Type: appl
 
 Дальше нужно запустить Agent.
 
-После чего мы уже можем получить результат выражения про запросив его по ID или вывести на экран все задачи.
+После чего мы уже можем получить результат выражения просто запросив его по ID или вывести на экран все задачи.
 
 1) Для конкретного поиска по ID:
 curl -X POST --location "localhost:8000/api/v1/expressions/:id?ID=<Expression ID>"
